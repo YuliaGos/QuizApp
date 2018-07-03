@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="quiz">President Trivia</string>
+    <string name="name">Enter your name:</string>
+    <string name="question1">1.How many president USA had?</string>
+    <string name="answer1">43</string>
+    <string name="answer2">44</string>
+    <string name="answer3">45</string>
+    <string name="answer4">46</string>
+
+    <string name="question2">2.Which president have been assassinated while they were sitting in the office?</string>
+    <string name="president1">Harry Truman</string>
+    <string name="president2">Abraham Lincoln</string>
+    <string name="president3">James A. Garfield</string>
+    <string name="president4">William McKinley</string>
+    <string name="president5">Lyndon B.Johnson</string>
+    <string name="president6">John F.Kennedy</string>
+
+    <string name="question3">3.Who was the tallest president of the United States?</string>
+    <string name="type">Type Answer</string>
+
+    <string name="question4">4.Which president was the first awarded the Nobel Peace Price?</string>
+    <string name="awarder1">Barack Obama</string>
+    <string name="awarder2">Theodore Roosevelt</string>
+    <string name="awarder3">Abraham Lincoln</string>
+    <string name="awarder4">Woodrow Wilson</string>
+
+    <string name="question5">5.Which president hated public speaking so much that he only gave two speeches in his presidency?</string>
+    <string name="speaker1">George Washington</string>
+    <string name="speaker2">Thomas Jefferson</string>
+    <string name="speaker3">John Adams</string>
+    <string name="speaker4">James Madison</string>
+
+    <string name="question6">6.Which president was the first actor elected?</string>
+    <string name="actor1">Ronald Regan</string>
+    <string name="actor2">John F.Kennedy</string>
+    <string name="actor3">Gerald Ford</string>
+    <string name="actor4">Bill Clinton</string>
+
+    <string name="question7">7.Which president was resigned?</string>
+
+    <string name="question8">8.Which president was the only president who studied to become a doctor?</string>
+    <string name="option1">John Tyler</string>
+    <string name="option2">James Buchanan</string>
+    <string name="option3">Grover Cleveland</string>
+    <string name="option4">William Henry Harrison</string>
+</resources>

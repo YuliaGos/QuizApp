@@ -1,0 +1,126 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#A1887F</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="text_president" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#212121</item>
+        <item name="android:layout_marginTop">@dimen/layout_marginTop</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    <style name="text_name" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#212121</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">@dimen/layout_marginLeft</item>
+    </style>
+    <style name="text_user" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#212121</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColorHint">#ffffff</item>
+        <item name="android:background">#D7CCC8</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginTop">@dimen/layout_marginTop</item>
+        <item name="android:layout_marginLeft">@dimen/layout_marginLeft</item>
+        <item name="android:layout_marginRight">@dimen/layout_marginRight</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="Question" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:layout_marginTop">@dimen/layout_marginTop</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">@dimen/layout_marginTop</item>
+        <item name="android:layout_marginRight">@dimen/layout_marginRight</item>
+    </style>
+
+    <style name="Radio_button" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_marginLeft">@dimen/layout_marginLeft</item>
+        <item name="android:paddingRight">55dp</item>
+    </style>
+
+    <style name="CheckBox" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:paddingRight">55dp</item>
+    </style>
+
+    <style name="CheckBoxQuestion6" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:paddingRight">55dp</item>
+    </style>
+
+    <style name="EditText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColorHint">#ffffff</item>
+        <item name="android:background">#D7CCC8</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginLeft">@dimen/layout_marginLeft</item>
+        <item name="android:layout_marginRight">@dimen/layout_marginRight</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="Spinner" parent="TextAppearance.AppCompat">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginLeft">@dimen/layout_marginLeft</item>
+        <item name="android:layout_marginRight">@dimen/layout_marginRight</item>
+        <item name="android:background">#D7CCC8</item>
+        <item name="android:popupBackground">#D7CCC8</item>
+        <item name="backgroundTint">#D7CCC8</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="submitButton" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#263238</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">#A1887F</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:drawableLeft">@drawable/ic_submit</item>
+        <item name="android:paddingLeft">3dp</item>
+        <item name="android:paddingRight">7dp</item>
+    </style>
+
+    <style name="shareButton" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#263238</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">#A1887F</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:drawableLeft">@drawable/ic_share</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+
+    <style name="resetButton" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#263238</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">#A1887F</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:drawableLeft">@drawable/ic_reset</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+
+</resources>
